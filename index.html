@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Frutfl</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300..700;1,300..700&family=Yeseva+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+  <body>
+    <header>
+      <div class="header-container">
+        <p>FRUTFL</p>
+        <nav>
+          <div class="backdrop"></div>
+          <ul>
+            <img src="./assets/icon-close.svg" alt="" class="closeIcon" />
+            <li><a href="#about">About</a></li>
+            <li><a href="#photos">Photos</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experiences">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </nav>
+        <img src="./assets/icon-menu.svg" alt="" class="menuIcon" />
+      </div>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <div class="hero-text">
+            <h1>I build the backends <span>products</span> run on</h1>
+            <p class="hero-sub-text">
+              Backend developer designing APIs, data models and infrastructure
+              that stay fast and easy to change as products grow.
+            </p>
+            <div class="work">
+              <span>🟢</span>
+              <p>Open to new projects</p>
+            </div>
+            <div>
+              <button class="my-work">See my work</button>
+              <button class="get-in-touch">Get in Touch</button>
+            </div>
+          </div>
+          <img src="./assets/img1.png" alt="" />
+        </div>
+      </section>
+
+      <section class="about" id="about">
+        <div class="container">
+          <h1>About</h1>
+          <div class="about-text">
+            <img src="./assets/img1.jpg " alt="" class="about-img" />
+            <div class="about-details">
+              <p>
+                <span
+                  >I like to craft solid and scalable products with exceptional
+                  user experiences, focusing on innovation and problem-solving
+                  across various industries.</span
+                >
+
+                <span
+                  >I'm Fruitful Ejiro, a Nigerian software developer with 2
+                  years of professional experience in software development. I
+                  specialize in building robust and scalable backend
+                  systems.</span
+                >
+
+                <span
+                  >A self-taught programmer with a strong foundation in computer
+                  science, I am passionate about using technology to solve
+                  real-world problems and create seamless user
+                  experiences.</span
+                >
+              </p>
+              <button>View Resume</button>
+            </div>
+          </div>
+          <div class="gallery" id="photos">
+            <div class="gallery-inner">
+              <!-- MOBILE: SLIDER -->
+              <div class="slider">
+                <div class="slider-track" id="track"></div>
+
+                <button class="slider-btn prev" id="prev" aria-label="Previous">
+                  ‹
+                </button>
+                <button class="slider-btn next" id="next" aria-label="Next">
+                  ›
+                </button>
+
+                <div class="dots" id="dots"></div>
+              </div>
+
+              <!-- LARGE SCREENS: MAIN IMAGE + THUMBNAILS -->
+              <div class="desktop">
+                <img class="main-image" id="main" alt="main product image" />
+                <div class="thumbs" id="thumbs"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="projects" id="projects">
+        <div class="container">
+          <h1>Selected Projects</h1>
+          <div class="projects-container">
+            <div class="project">
+              <img src="./assets/img2.jpeg" alt="" />
+              <div class="description">
+                <h3 class="project-name">Team Access Control API</h3>
+                <p class="project-description">
+                  Role-based permissions so each team member sees only what they
+                  should.
+                </p>
+                <p class="project-tech">Node.js • Express • PostgreSQL</p>
+              </div>
+            </div>
+
+            <div class="project">
+              <img src="./assets/img2.jpeg" alt="" />
+              <div class="description">
+                <h3 class="project-name">Team Access Control API</h3>
+                <p class="project-description">
+                  Role-based permissions so each team member sees only what they
+                  should.
+                </p>
+                <p class="project-tech">Node.js • Express • PostgreSQL</p>
+              </div>
+            </div>
+
+            <div class="project">
+              <img src="./assets/img2.jpeg" alt="" />
+              <div class="description">
+                <h3 class="project-name">Team Access Control API</h3>
+                <p class="project-description">
+                  Role-based permissions so each team member sees only what they
+                  should.
+                </p>
+                <p class="project-tech">Node.js • Express • PostgreSQL</p>
+              </div>
+            </div>
+
+            <div class="project">
+              <img src="./assets/img2.jpeg" alt="" />
+              <div class="description">
+                <h3 class="project-name">Team Access Control API</h3>
+                <p class="project-description">
+                  Role-based permissions so each team member sees only what they
+                  should.
+                </p>
+                <p class="project-tech">Node.js • Express • PostgreSQL</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills" id="skills">
+        <div class="container">
+          <h1>What I Work With</h1>
+          <div class="skills-container">
+            <div class="languages">
+              <h3>Languages</h3>
+              <div>
+                <p>TypeScript</p>
+                <p>JavaScript</p>
+                <p>NodeJs</p>
+                <p>NestJs</p>
+                <p>Express</p>
+                <p>React</p>
+                <p>Angular</p>
+              </div>
+            </div>
+            <div class="data">
+              <h3>Data</h3>
+              <div>
+                <p>MongoDB</p>
+                <p>PostgreSQL</p>
+                <p>Mongoose</p>
+                <p>Prisma</p>
+                <p>TypeOrm</p>
+                <p>Sequelize</p>
+              </div>
+            </div>
+            <div class="practices">
+              <h3>Practices</h3>
+              <div>
+                <p>Rest API</p>
+                <p>JWT</p>
+                <p>AuthN/AuthZ</p>
+                <p>API Design</p>
+                <p>Object Oriented</p>
+                <p>Functional Programming</p>
+                <p>System Design</p>
+                <p>Scalable backend</p>
+                <p>Security Best Practices</p>
+                <p>System Design</p>
+                <p>Error handling</p>
+                <p>Testing</p>
+                <p>Git</p>
+                <p>Docker</p>
+                <p>Postman</p>
+                <p>Swagger</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="experiences" id="experiences">
+        <div class="container">
+          <h1>Experience</h1>
+          <div class="experiences-container">
+            <div class="experience">
+              <p class="date">Oct 2025 - Present</p>
+              <div class="company-data">
+                <p class="job-title">Lead Software Development Instructor</p>
+                <p class="company-name">Ann Notch Digital Academy</p>
+                <ul class="roles">
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Lead frontend development and backend development training
+                      for both individual and group sessions in an offline
+                      classroom environment
+                    </p>
+                  </li>
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Design and deliver structured curricula covering web
+                      development fundamentals and backend development concepts
+                    </p>
+                  </li>
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Mentor and guide students through hands-on projects,
+                      fostering practical, real-world development skills
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <hr />
+
+            <div class="experience">
+              <p class="date">Oct 2025 - May 2026</p>
+              <div class="company-data">
+                <p class="job-title">Junior Backend Developer</p>
+                <p class="company-name">Glidex Technologies</p>
+                <ul class="roles">
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Collaborated with the Senior Engineer to design and
+                      develop a scalable e-hailing platform built on a
+                      microservice architecture using NestJs
+                    </p>
+                  </li>
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Assisted in structuring and implementing independent,
+                      loosely-coupled services to ensure scalability and
+                      maintainability
+                    </p>
+                  </li>
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Contributed to the backend development of an advertising
+                      platform for a government agency
+                    </p>
+                  </li>
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Assisted in building and integrating server-side logic,
+                      API’s and database architecture accross multiple projects.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <hr />
+
+            <div class="experience">
+              <p class="date">Nov 2025 - Feb 2026</p>
+              <div class="company-data">
+                <p class="job-title">Backend Developer Intern</p>
+                <p class="company-name">Subby Technologies</p>
+                <ul class="roles">
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Implemented a multi-category bill payment covering
+                      airtime, data, TV subscriptions, and utility payments
+                      using NodeJs, Tyopescript and express
+                    </p>
+                  </li>
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Developed and exposed API endpoints to power analytics and
+                      reporting features in the provider-facing dashboard
+                    </p>
+                  </li>
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Contributed to backend development in a startup
+                      environment, delivering user-faing financial features
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <hr />
+
+            <div class="experience">
+              <p class="date">April 2025 - Nov 2025</p>
+              <div class="company-data">
+                <p class="job-title">Backend Developer Intern</p>
+                <p class="company-name">Jodna Technologies</p>
+                <ul class="roles">
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Led a team of interns in the design and development of a
+                      crypto exchange application using Nodejs, Typescript and
+                      express
+                    </p>
+                  </li>
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Collaborated with other backend developers to build a
+                      talent finder platform connecting individuals with local
+                      skilled professionals
+                    </p>
+                  </li>
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Contributed to multiple client-facing software projects
+                      accross various industries throughout the internship.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <hr />
+
+            <div class="experience">
+              <p class="date">Jun 2023 - Dec 2023</p>
+              <div class="company-data">
+                <p class="job-title">Web Development Instructor Intern</p>
+                <p class="company-name">Coriftech Solutions Ltd</p>
+                <ul class="roles">
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Taught secondary school students the fundamentals of web
+                      development in a structured classroom setting
+                    </p>
+                  </li>
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Simplified complex technical concepts into
+                      beginner-friendly lessons tailored for young learners
+                    </p>
+                  </li>
+                  <li>
+                    <span>▪️</span>
+                    <p>
+                      Contributed to nurturing early interest in technology and
+                      programming among secondary school students
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact" id="contact">
+        <div class="container">
+          <h1 class="cta">Have something to build?</h1>
+          <h3 class="email">
+            <a href="mailto:fruitful186@gmail.com">fruitful186@gmail.com</a>
+          </h3>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-container">
+        &copy; 2026 Fruitful Ejiro <a href="https://www.github.com/FruitfulEjiro">• Github</a>
+        <a href="x.com/frutfl">• Twitter</a>
+      </div>
+    </footer>
+    <script src="index.js"></script>
+  </body>
+</html>
