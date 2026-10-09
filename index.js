@@ -1,10 +1,10 @@
 "use strict";
 
 const images = [
-  "./assets/img1.jpg",
-  "./assets/img1.jpg",
-  "./assets/img1.jpg",
-  "./assets/img1.jpg",
+    "./assets/img4.png",
+  "./assets/img2.png",
+  "./assets/img3.png",
+  "./assets/img6.png",
 ];
 
 let current = 0;
